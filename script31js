@@ -1,0 +1,10 @@
+function mostrarGrausCelsius(temperaturaGrausFarenheit){
+
+return(5/9) * (temperaturaGrausFarenheit-32)
+
+}
+
+let temperaturaGrausCelsius = mostrarGrausCelsius(212)
+
+document.getElementById("naoGrita").innerHTML ="A temperatura convertida em graus"
+Celsius é : "+temperaturaGrausCelsius"

@@ -1,0 +1,11 @@
+let nomeCarro = " Opala"
+let saida = "Variavel em escopo global" + typeof nomeCarro;
+document.getElementById("demonstracao1").innerText = saida;
+
+function variavelInterna(){
+    let nomeCarro = "Gol";
+    let saida = "Variavel em escopo Interno (Dentro da função)" + typeof nomeCarro + " " + nomeCarro;
+    document.getElementById("demonstracao2").innerText = saida;
+}
+
+variavelInterna();
